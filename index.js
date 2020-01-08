@@ -6,7 +6,7 @@ function findMatching(drivers, name) {
 
 function fuzzyMatch(drivers, letter) {
     for (let i of drivers) {
-      
+
     }
 }
 
