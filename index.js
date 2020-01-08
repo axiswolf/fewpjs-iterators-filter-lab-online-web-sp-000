@@ -1,7 +1,7 @@
 // Code your solution here
 
 function findMatching(drivers, name) {
-    return drivers.filter(x => x.useLowerCase() == name.useLowerCase())
+    return drivers.filter(x => x.toLowerCase() == name.toLowerCase())
 }
 
 function fuzzyMatch(drivers, letter) {
