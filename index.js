@@ -12,5 +12,5 @@ function fuzzyMatch(drivers, letter) {
 
 function matchName(drivers, name) {
     const x = drivers.filter(name)
-    if (x) return x.name, x.hometown
+    if (x) return drivers[]
 }
