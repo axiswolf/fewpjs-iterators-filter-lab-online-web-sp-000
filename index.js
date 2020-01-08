@@ -10,7 +10,7 @@ function fuzzyMatch(drivers, letter) {
     }
 }
 
-function matchName(drivers, input) {
-    const x = drivers.filter(input)
+function matchName(drivers, entry) {
+    const x = drivers.filter(entry)
     if (x) return x
 }
